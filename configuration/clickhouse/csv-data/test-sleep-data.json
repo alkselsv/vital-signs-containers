@@ -1,0 +1,102 @@
+[
+    {
+        "start_time": "2023-09-15 01:11:10.726444",
+        "end_time": "2023-09-15 02:11:10.726444",
+        "all_time_in_seconds": 3600,
+        "efficiency_in_percents": 80,
+        "delay_in_seconds": 20,
+        "periods_of_wakefulness": 2,
+        "poses": [
+            "on_the_back",
+            "on_the_side",
+            "on_the_stomach"
+        ],
+        "stages": [
+            {
+                "stage": "deep",
+                "start_time": "2023-09-16 01:15:10.726444",
+                "end_time": "2023-09-15 01:30:10.726444"
+            },
+            {
+                "stage": "fast",
+                "start_time": "2023-09-16 01:20:10.726444",
+                "end_time": "2023-09-15 02:11:10.726444"
+            }
+        ]
+    },
+    {
+        "start_time": "2023-09-17 01:11:10.726444",
+        "end_time": "2023-09-17 02:11:10.726444",
+        "all_time_in_seconds": 3600,
+        "efficiency_in_percents": 80,
+        "delay_in_seconds": 20,
+        "periods_of_wakefulness": 2,
+        "poses": [
+            "on_the_back",
+            "on_the_side",
+            "on_the_stomach"
+        ],
+        "stages": [
+            {
+                "stage": "deep",
+                "start_time": "2023-09-17 01:15:10.726444",
+                "end_time": "2023-09-15 01:30:10.726444"
+            },
+            {
+                "stage": "fast",
+                "start_time": "2023-09-17 01:20:10.726444",
+                "end_time": "2023-09-15 02:11:10.726444"
+            }
+        ]
+    },
+    {
+        "start_time": "2023-09-18 01:11:10.726444",
+        "end_time": "2023-09-18 02:11:10.726444",
+        "all_time_in_seconds": 3600,
+        "efficiency_in_percents": 80,
+        "delay_in_seconds": 20,
+        "periods_of_wakefulness": 2,
+        "poses": [
+            "on_the_back",
+            "on_the_side",
+            "on_the_stomach"
+        ],
+        "stages": [
+            {
+                "stage": "deep",
+                "start_time": "2023-09-18 01:15:10.726444",
+                "end_time": "2023-09-18 01:30:10.726444"
+            },
+            {
+                "stage": "fast",
+                "start_time": "2023-09-18 01:20:10.726444",
+                "end_time": "2023-09-18 02:11:10.726444"
+            }
+        ]
+    },
+    {
+        "start_time": "2023-09-19 01:11:10.726444",
+        "end_time": "2023-09-19 02:11:10.726444",
+        "all_time_in_seconds": 3600,
+        "efficiency_in_percents": 80,
+        "delay_in_seconds": 20,
+        "periods_of_wakefulness": 2,
+        "poses": [
+            "on_the_back",
+            "on_the_side",
+            "on_the_stomach"
+        ],
+        "stages": [
+            {
+                "stage": "deep",
+                "start_time": "2023-09-19 01:15:10.726444",
+                "end_time": "2023-09-19 01:30:10.726444"
+            },
+            {
+                "stage": "fast",
+                "start_time": "2023-09-19 01:20:10.726444",
+                "end_time": "2023-09-19 02:11:10.726444"
+            }
+        ]
+    }
+]

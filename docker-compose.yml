@@ -1,0 +1,23 @@
+services:
+  clickhouse:
+    container_name: clickhouse
+    image: bitnami/clickhouse:latest
+    environment:
+      - CLICKHOUSE_ADMIN_PASSWORD=secret
+    ports:
+      - "8123:8123"
+    volumes:
+      - clickhouse:/bitnami/clickhouse
+      - ./configuration/clickhouse/init:/docker-entrypoint-initdb.d
+      - ./configuration/clickhouse/csv-data:/test-data
+  backend:
+    container_name: vital-backend
+    image: gamkere/vital-signs-backend:latest
+    command: uvicorn main:app --host 0.0.0.0
+    ports:
+      - "8000:8000"
+    restart: on-failure
+    depends_on:
+      - clickhouse
+volumes:
+  clickhouse:
